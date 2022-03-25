@@ -7,6 +7,7 @@ use {
         path::PathBuf,
     },
 };
+#[derive(Clone)]
 pub struct LogContext {
     log_dir: String,
     log_name: String,
