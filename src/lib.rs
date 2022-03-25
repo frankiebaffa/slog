@@ -39,7 +39,7 @@ impl LogContext {
             Ok(l) => l,
             Err(e) => {
                 panic!(
-                    "Failed to find env var \"{}\"for log: {}",
+                    "Failed to find env var \"{}\" for log: {}",
                     log_name_key,
                     e
                 );
